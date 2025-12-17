@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #12202d;
+    color: #ffffff;
+}
+
+.main {
+    width: 360px;
+    margin: 30px auto;
+}
+
+h2 {
+    margin-bottom: 15px;
+    font-weight: normal;
+}
+
+.box {
+    background-color: #1e2f3f;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.box p {
+    margin: 0;
+    font-size: 13px;
+    color: #b0c4d4;
+}
+
+.box h3 {
+    margin: 5px 0 0;
+    font-weight: normal;
+}
+
+.stock {
+    background-color: #1e2f3f;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 12px;
+}
+
+.stock h4 {
+    margin: 0;
+    font-weight: normal;
+}
+
+.stock p {
+    margin: 4px 0 0;
+    font-size: 13px;
+    color: #b0c4d4;
+}
+
+.right {
+    text-align: right;
+}
+
+.btns {
+    margin-top: 8px;
+}
+
+button {
+    padding: 5px 12px;
+    border: none;
+    border-radius: 4px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.buy {
+    background-color: #2ecc71;
+    color: #000;
+    margin-right: 6px;
+}
+
+.sell {
+    background-color: #ff7675;
+    color: #000;
+}
+
+.profit {
+    color: #4caf50;
+}
+
+.loss {
+    color: #ff6b6b;
+}
